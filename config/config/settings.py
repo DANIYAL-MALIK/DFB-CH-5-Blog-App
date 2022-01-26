@@ -124,3 +124,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     str(BASE_DIR.joinpath('static'))
 ]
+LOGIN_REDIRECT_URL='home'
+LOGOUT_REDIRECT_URL='home'

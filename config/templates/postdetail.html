@@ -5,6 +5,7 @@
       <p>{{ object.body }}</p>
   </div>
   <a href="{% url 'post_edit' post.pk %}">Edit the blog Post</a>
+  <br><br>
   <a href="{% url 'post_delete' post.pk %}">Delete the blog Post</a>
 
 {% endblock content %}
